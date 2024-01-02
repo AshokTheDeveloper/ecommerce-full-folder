@@ -1,0 +1,142 @@
+.job-item-container {
+  border-radius: 16px;
+  background-color: #272727;
+  list-style-type: none;
+  margin-bottom: 24px;
+  padding: 24px;
+  width: 100%;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.company-logo-and-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 16px;
+}
+
+.job-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.star-icon {
+  color: #fbbf24;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.location-employment-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.location-employment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.location-icon {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.location-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.employment-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.employment-type-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.bag-icon {
+  width: 20px;
+  height: 18px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.package {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.description-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.job-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  color: #cbd5e1;
+  width: 90%;
+  line-height: 28px;
+}
+
+.job-card-list {
+  text-decoration: none;
+}

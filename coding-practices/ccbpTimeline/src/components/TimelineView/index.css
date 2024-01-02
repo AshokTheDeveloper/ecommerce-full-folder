@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px 64px;
+  background-color: rgb(241, 241, 241);
+}
+
+.timeline {
+  width: 90%;
+  height: 900px;
+}
+
+.text-container {
+}
+
+.heading {
+  font-family: "Roboto";
+  margin-bottom: 32px;
+}
+
+.course-timeline-container {
+    background-color: blue;
+}

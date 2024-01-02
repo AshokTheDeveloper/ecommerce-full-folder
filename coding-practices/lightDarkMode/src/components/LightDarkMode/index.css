@@ -1,0 +1,109 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .dark-mode-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 80px;
+    border-radius: 16px;
+}
+
+.light-mode-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+}
+
+.dark-mode-heading {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 32px;
+    font-family: "Roboto";
+}
+
+.light-mode-heading {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 32px;
+    font-family: "Roboto";
+}
+
+.button {
+    padding: 16px 16px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-weight: 600;
+}
+}
+
+@media screen and (min-width: 768px){
+    .dark-mode-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 80px;
+    border-radius: 16px;
+}
+
+.light-mode-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+}
+
+.dark-mode-heading {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 32px;
+    font-family: "Roboto";
+}
+
+.light-mode-heading {
+    color: #000000;
+    text-align: center;
+    padding-bottom: 32px;
+    font-family: "Roboto";
+}
+
+.button {
+    padding: 16px 16px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Roboto";
+    cursor: pointer;
+    font-weight: 600;
+}
+}

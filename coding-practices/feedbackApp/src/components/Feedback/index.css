@@ -1,0 +1,74 @@
+/* Write your CSS code here. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container{
+    background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+    height: 100vh;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-bg-container {
+    background-color:  #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+}
+
+
+.heading {
+    font-family: "Roboto";
+    color: #0f172a;
+    text-align: center;
+}
+
+.feedback-emoji-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 24px;
+}
+
+.thanks-bg-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    border-radius: 16px;
+    width: 600px;
+     
+}
+.love-emoji {
+    width: 80px;
+    padding-bottom: 16px;
+}
+
+.thank-you-name {
+    font-family: "Roboto";
+    color:  #0f172a;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.description {
+    font-family: "Roboto";
+    color: #1e293b;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, #2b2c49,  #b5b9ff);
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+}

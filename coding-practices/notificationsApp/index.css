@@ -1,0 +1,106 @@
+/* Write your code here. */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .heading {
+    color: #0f172a;
+    font-family: "Roboto";
+}
+.card {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+.notification-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 16px;
+}
+.notification-logo {
+    width: 30px;
+    margin-left: 12px;    
+}
+
+.notification-text {
+    color: #ffffff;
+    padding-left: 12px;
+    font-family: "Roboto";    
+}
+.card-info {
+    background-color: #0b69ff;
+}
+
+.card-success {
+    background-color:  #2dca73;
+}
+
+.card-warning {
+    background-color: #ffb800;
+}
+
+.card-danger {
+    background-color:  #ff0b37;
+}
+}
+
+@media screen and (min-width: 768px){
+    .heading {
+    color: #0f172a;
+    font-family: "Roboto";
+}
+.card {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+.notification-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 16px;
+}
+.notification-logo {
+    width: 30px;
+    margin-left: 12px;    
+}
+
+.notification-text {
+    color: #ffffff;
+    padding-left: 12px;
+    font-family: "Roboto";    
+}
+.card-info {
+    background-color: #0b69ff;
+}
+
+.card-success {
+    background-color:  #2dca73;
+}
+
+.card-warning {
+    background-color: #ffb800;
+}
+
+.card-danger {
+    background-color:  #ff0b37;
+}
+}

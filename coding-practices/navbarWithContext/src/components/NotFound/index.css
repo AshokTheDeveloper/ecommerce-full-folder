@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found-image {
+  width: 200px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+}
+
+@media (max-width: 576px) {
+  .not-found-image {
+    width: 140px;
+  }
+
+  .not-found-heading {
+    font-size: 24px;
+  }
+  .not-found-description {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.repository-item {
+  list-style-type: none;
+  background-color: #f8f8ff;
+  margin: 8px;
+  width: 200px;
+  height: 280px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 120px;
+  margin-bottom: 8px;
+}
+
+.text-container {
+  margin-left: 8px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 16px;
+  color: #e73959;
+  margin-bottom: 8px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.icons-text-container {
+  display: flex;
+  margin-bottom: 12px;
+}

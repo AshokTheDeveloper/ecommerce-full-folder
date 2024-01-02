@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.suggestion-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.arrow-icon {
+    width: 20px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.suggestion-text {
+    font-family: "Roboto";
+    color: #475569;
+    padding-left: 32px;
+    font-weight: 400;
+}

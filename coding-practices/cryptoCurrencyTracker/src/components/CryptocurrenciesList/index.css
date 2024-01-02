@@ -1,0 +1,70 @@
+/* Write your CSS code here */
+
+.list-container {
+  margin-top: 32px;
+  width: 500px;
+  border: 1px solid #00e7ff;
+  border-radius: 2px;
+}
+
+.list-items-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+}
+
+.coins-list {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 14px;
+  margin-right: 24px;
+}
+
+.coin-type {
+  padding: 8px;
+  font-family: "Roboto";
+  padding-left: 24px;
+  color: #ffffff;
+}
+
+li {
+  padding: 8px;
+  font-family: "Roboto";
+  color: #ffffff;
+}
+
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-container {
+    margin-top: 64px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #00e7ff;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.image {
+    width: 600px;
+    margin: 0px;
+}
+
+
+.coins-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

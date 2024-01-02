@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.latest-match {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  width: 60%;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  width: 60%;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.left-text-container {
+  width: 50%;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.competing-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.date {
+  font-size: 18px;
+}
+
+.competing-logo-container {
+  width: 30%;
+}
+
+.competing-logo {
+  width: 200px;
+}
+
+.right-text-container {
+  width: 30%;
+}
+
+.right-text {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.head {
+  font-size: 18px;
+}
+
+.separator {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .latest-match {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    padding: 16px;
+    padding-bottom: 16px;
+  }
+
+  .responsive-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border-radius: 0px;
+  }
+
+  .left-text-container {
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .competing-team {
+    font-size: 24px;
+  }
+
+  .competing-logo {
+    width: 120px;
+  }
+
+  .right-text-container {
+    width: 100%;
+  }
+
+  .right-text {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .head {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

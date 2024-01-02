@@ -1,0 +1,131 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color: #ffd569;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .heading {
+    font-family: "Roboto";
+    color: #000000;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    font-size: 40px;
+}
+
+.counter-text {
+    font-family: "Roboto";
+    color:  #ffd569;
+    font-size: 40px;
+}
+
+.fruits-bg-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.bottom-section-container {
+    display: flex;
+}
+
+.mangos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bananas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+}
+
+@media screen and (min-width: 768px){
+    .heading {
+    font-family: "Roboto";
+    color: #000000;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    font-size: 40px;
+}
+
+.counter-text {
+    font-family: "Roboto";
+    color:  #ffd569;
+    font-size: 40px;
+}
+
+.fruits-bg-container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.bottom-section-container {
+    display: flex;
+}
+
+.mangos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bananas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+}

@@ -1,0 +1,102 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cash-withdraw-container {
+    background-color: #150b3e;
+    padding: 64px;
+    border-radius: 18px;
+    width: 600px;
+}
+
+.customer-profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.customer-profile-picture {
+    background-color: #c7d2fe;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-family: "Roboto";
+    color:  #7c3aed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-name {
+    color: #c7d2fe;
+    font-family: "Roboto";
+    padding-left: 16px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.balance-rupees-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.your-balance-text {
+    font-family: "Roboto";
+    color: #585076;
+    font-size: 24px;
+    font-weight: 700;
+}
+.cash {
+    font-family: "Roboto";
+    color: #d4d2db;
+    padding-bottom: 24px;
+    font-size: 32px;
+}
+.rupees-text {
+    font-family: "Roboto";
+    color: #585076;
+}
+
+.withdraw-container {
+    padding-top: 32px;
+}
+
+.withdraw-heading {
+    font-family: "Roboto";
+    color: #c7d2fe;
+    font-weight: normal;
+    padding-bottom: 32px;
+    font-size: 28px;
+}
+
+.sub-heading {
+    font-family: "Roboto";
+    color:  #585076;
+    font-weight: normal;
+    padding-bottom: 24px;
+    font-weight: 600;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

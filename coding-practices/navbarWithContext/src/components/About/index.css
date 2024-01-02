@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dark-about-background {
+  background-color: #000000;
+}
+
+.about-image {
+  width: 200px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+}
+
+.dark-about-heading {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .about-image {
+    width: 140px;
+  }
+
+  .about-heading {
+    font-size: 24px;
+  }
+  .about-description {
+    font-size: 14px;
+  }
+}

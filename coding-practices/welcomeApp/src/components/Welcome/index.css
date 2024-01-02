@@ -1,0 +1,40 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:  #1e293b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #f0bb03;
+    font-family: "Bree Serif";
+    font-size: 64px;
+    padding-bottom: 32px;
+}
+
+.sub-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    padding-bottom: 32px;
+    font-size: 24px;
+}
+button {
+    background-color: #ffffff;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    color: #1e293b;
+    font-family: "Bree Serif";
+    font-weight: 600;
+}

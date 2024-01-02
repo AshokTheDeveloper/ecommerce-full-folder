@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.tab-item-container {
+    list-style-type: none;
+    margin-top: 16px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-bottom: 1px solid #dfe2e5;
+}
+
+
+.tab-name {
+    font-family: "Roboto";
+    color: #7b8794;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border-bottom: 2px slid #7b8794;
+    padding-bottom: 3px;
+}
+.textHighlight {
+    border-bottom: 2px solid #2563eb;
+    color: #2563eb;
+    width: 60px;
+}

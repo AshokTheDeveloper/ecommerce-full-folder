@@ -1,0 +1,85 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-image: linear-gradient(to bottom,  #fff1eb,  #ace0f9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-store-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-store-heading {
+    font-family: "Bree Serif";
+    font-size: 36px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.input-container {
+    border: 1px solid #7b8794;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 38px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.search-icon {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.input-search {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    width: 240px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.tabs-container {
+    display: flex;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.app-items {
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+@media screen and (min-width: 570px){
+    .app-items-container {
+        width: 768px;
+    }
+}

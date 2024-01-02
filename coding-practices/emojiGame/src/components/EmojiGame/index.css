@@ -1,0 +1,117 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+
+.emoji-card-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.emoji-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+
+.game-lost-container {
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #fffff555;
+    border-radius: 16px;
+    padding: 46px;
+    margin-top: 36px;
+}
+
+.game-lost-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lose-game-text {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 34px;
+    margin-bottom: 0px;
+}
+
+.lost-game-score-text {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.lost-game-score {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 24px;
+    color: #6a59ff;
+    margin-bottom: 12px;
+}
+
+.play-again-button {
+    padding: 6px 8px;
+    background-color: #ffce27;
+    font-family: "Roboto";
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.lost-game-image {
+    width: 280px;
+}
+
+.navbar-score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff33;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-right: 80px;
+}
+
+.score {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.main-score {
+    margin-right: 80px;
+}

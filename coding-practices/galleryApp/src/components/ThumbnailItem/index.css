@@ -1,0 +1,16 @@
+/* Write your code here. */
+
+.thumbnail-item-container {
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+.thumb-nail-image {
+    width: 48px;
+}
+
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

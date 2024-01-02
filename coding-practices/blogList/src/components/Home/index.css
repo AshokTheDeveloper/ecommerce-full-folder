@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.profile-pic {
+  width: 120px;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  color: #12022f;
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.role {
+  font-family: 'Roboto';
+  color: #616e7c;
+  margin-bottom: 0;
+}
+
+.blogs-list-bg-container {
+  width: 90%;
+}

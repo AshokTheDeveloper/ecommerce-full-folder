@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 30px;
+}
+
+.logo-text {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.nav-links-container {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-family: "Roboto";
+  color: #12022f;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}

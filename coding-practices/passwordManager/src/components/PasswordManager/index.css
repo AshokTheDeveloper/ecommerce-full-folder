@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 200vh;
+}
+
+.container-width {
+  background-color: #5763a5;
+  width: 1210px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.logo-container {
+  padding-top: 32px;
+  margin-bottom: 32px;
+  background: none;
+}
+
+.logo {
+  width: 160px;
+}
+
+.input-section-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 64px;
+}
+
+
+.input-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #454f84;
+  padding: 32px;
+  border-radius: 12px;
+  width: 40%;
+}
+
+.password-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f8fafc;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 32px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.icon {
+  width: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 8px;
+}
+
+.input {
+  background: none;
+  border: none;
+  outline: none;
+  border-left: 1px solid #94a3b8;
+  height: 46px;
+  padding-left: 8px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.separator {
+  border: 1px solid #94a3b8;
+  height: 100%;
+}
+
+.add-button-container {
+  display: flex;
+  align-self: flex-end;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+
+.picture-container {
+  width: 40%;
+}
+
+.home-picture {
+  width: 360px;
+}
+
+.password-section-bg-container {
+  margin-top: 16px;
+  background-color: #5763a5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px;
+  width: 1210px;
+  height: 80vh;
+}
+
+.password-heading-and-search-input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #b6c3ca;
+  padding-bottom: 32px;
+}
+
+.passwords-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.password-counter-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.password-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 18%;
+  padding-left: 16px;
+}
+
+.search-input {
+  background: none;
+  border: none;
+  outline: none;
+  border-left: 1px solid #94a3b8;
+  height: 28px;
+  padding: 8px;
+}
+
+.separator {
+  border: none;
+  border-left: none;
+  border: 1px solid red;
+}
+
+.passwords-list-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-box-container {
+  display: flex;
+  align-self: flex-end;
+}
+
+.show-passwords-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.check-box {
+  height: 20px;
+  width: 20px;
+}
+
+.items-bg-container {
+  margin-top: 32px;
+}
+
+.list-of-passwords-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.no-password-image {
+  width: 280px;
+  margin-bottom: 16px;
+}
+
+.no-password-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  }
+
+  .container-width {
+    border-radius: 8px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+
+  .input-section-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .picture-container {
+    display: none;
+  }  
+}

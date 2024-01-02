@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image-large {
+  width: 900px;
+}
+
+
+@media (max-width: 576px) {
+  .home-image-large {
+    display: none;
+  }
+  .home-image-small {
+      width: 400px;
+  }
+}
+
+@media (min-width: 576px) {
+  .home-image-small {
+    display: none;
+  }
+}

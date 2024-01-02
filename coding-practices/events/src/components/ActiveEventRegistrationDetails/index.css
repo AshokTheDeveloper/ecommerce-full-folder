@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.status-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  width: 400px;
+}
+
+.registered-icon {
+  width: 80px;
+  margin-bottom: 24px;
+}
+
+.event-text {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.registration-closed-image {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+.description {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.not-registered-image {
+  width: 200px;
+  margin-bottom: 24px;
+}
+
+.register-button {
+  margin-top: 16px;
+  padding: 8px 80px;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

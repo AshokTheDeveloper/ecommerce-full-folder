@@ -1,0 +1,139 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comments-item-bg-container {
+    list-style-type: none;
+}
+
+.user-name-and-time-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+.profile-picture {
+    color: #ffffff;
+    font-family: "Roboto";
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.user-name {
+    font-family: "Roboto";
+    color: #334155;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+.created-time {
+    font-family: "Roboto";
+    color: #94a3b8;
+    font-size: 14px;
+    margin-left: 32px;
+    padding-top: 4px;
+}
+
+.comment-text {
+    font-family: "Roboto";
+    color: #64748b;
+    margin-left: 52px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.like-and-delete-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.like-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-text {
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+.like-button {
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.liked-icon {
+    width: 20px;
+    margin-left: 8px;
+    cursor: pointer;    
+}
+
+.delete-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.delete-icon {
+    width: 20px;
+}
+
+.line-separator {
+    border: 1px solid #cbd2d9;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.liked-color {
+    color: #0ea5e9;
+}
+
+.un-liked-color {
+    color: #94a3b8;
+}
+
+@media screen and (max-width: 576px){
+    
+}

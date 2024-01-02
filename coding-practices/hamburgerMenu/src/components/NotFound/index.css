@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound-image {
+  width: 400px;
+  margin-bottom: 0;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  color: #000000;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #616e7c;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .notfound-image {
+    width: 280px;
+  }
+  .failure-heading {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 14px;
+    width: 400px;
+  }
+}

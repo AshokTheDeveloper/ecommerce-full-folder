@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.buttons-container {
+    display: flex;
+}
+
+.button {
+    width: 220px;
+    height: 48px;
+    margin: 8px;
+    background-color:  #382f5a;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    color: #c4c4c4;
+    font-family: "Roboto";
+    font-size: 24px;
+    cursor: pointer;
+}

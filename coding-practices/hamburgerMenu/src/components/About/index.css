@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image-lg {
+  width: 900px;
+}
+
+@media (max-width: 576px) {
+  .about-image-lg {
+    display: none;
+  }
+  .about-image-small {
+      width: 400px;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-image-small {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.thumbnail-item-container {
+  list-style-type: none;
+}
+
+.thumbnail {
+  width: 86px;
+  margin: 6px;
+}
+
+.thumbnail-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .thumbnail {
+    width: 78px;
+  }
+}

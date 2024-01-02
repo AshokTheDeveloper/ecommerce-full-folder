@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.list-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+    border: 1px solid #b5b7c4;
+    border-radius: 14px;
+    margin: 8px;
+    padding: 16px;
+    width: 310px;
+}
+
+.name {
+    font-family: "Roboto";
+    color: #171f46;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.date {
+    font-family: "Roboto";
+    color:  #b5b7c4;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.starred-button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

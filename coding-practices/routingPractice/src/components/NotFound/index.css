@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 400px;
+}
+
+.not-found-icon {
+  width: 300px;
+  margin-bottom: 34px;
+}
+
+.not-found-text {
+  font-family: 'Roboto';
+  color: #551e53;
+}

@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40vh;
+}
+
+.left-navbar-container {
+  width: 30%;
+  background-color: #e2e8f0;
+  padding: 16px;
+  margin-right: 2px;
+}
+
+.left-menu-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  color: #475569;
+}
+
+.list-of-items {
+  list-style-type: none;
+}
+
+li {
+  color: #475569;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.content-container {
+  width: 100%;
+  background-color: #f1f5f9;
+  padding-top: 16px;
+  padding-left: 32px;
+}
+
+.content-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  color: #475569;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 16px;
+}
+
+.right-navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  background-color: #e2e8f0;
+  padding: 16px;
+  margin-left: 2px;
+}
+
+.right-navbar-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  color: #475569;
+}
+
+.block-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #475569;
+  width: 100%;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.block-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #475569;
+  width: 100%;
+  height: 100px;
+  margin-top: 8px;
+}

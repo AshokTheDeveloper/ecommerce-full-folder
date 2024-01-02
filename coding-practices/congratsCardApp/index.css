@@ -1,0 +1,102 @@
+/* Write your code here. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.congrats-card-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+@media screen and (min-width: 768px){
+    
+.heading {
+    color:  #0f172a;
+    font-family: "Roboto";
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.card-container {
+    background-color:  #cffafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding: 60px;
+
+}
+
+.profile-image {
+    padding-top: 32px;
+    width: 60px;
+}
+
+.user-name {
+    font-family: "Roboto";
+    color:  #1e293b;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.description {
+    font-family: "Roboto";
+    color:  #1e293b;
+    padding-bottom: 16px;
+    text-align: center;
+}
+}
+
+@media screen and ( max-width: 768px) {
+    .heading {
+    color:  #0f172a;
+    font-family: "Roboto";
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.card-container {
+    background-color:  #cffafe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding: 60px;
+
+}
+
+.profile-image {
+    padding-top: 32px;
+    width: 60px;
+}
+
+.user-name {
+    font-family: "Roboto";
+    color:  #1e293b;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.description {
+    font-family: "Roboto";
+    color:  #1e293b;
+    padding-bottom: 16px;
+    text-align: center;
+}
+}

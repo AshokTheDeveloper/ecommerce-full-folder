@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.project-container {
+  list-style-type: none;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.project-title {
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.calender-icon {
+  width: 16px;
+  height: 16px;
+  color: #171f46;
+  margin-right: 8px;
+}
+
+.project-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #0967d2;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.bar-chart-container {
+  height: 70vh;
+}
+
+.vaccination-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}

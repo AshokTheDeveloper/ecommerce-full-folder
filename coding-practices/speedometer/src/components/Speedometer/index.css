@@ -1,0 +1,129 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color:  #07080c;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.image {
+    width: 576px;
+}
+
+.counter-heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.description {
+    font-family: "Roboto";
+    color: #cbd5e1;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 8px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color:  #0b69ff;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Roboto";
+    cursor: pointer;
+    outline: none;
+}
+
+.right-button {
+    background: none;
+    border: 1px solid #94a3b8;
+    color: #94a3b8;
+}    
+}
+
+@media screen and (max-width: 768px){
+    .heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+.image {
+    width: 576px;
+}
+
+.counter-heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.description {
+    font-family: "Roboto";
+    color: #cbd5e1;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 8px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color:  #0b69ff;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Roboto";
+    cursor: pointer;
+    outline: none;
+}
+
+.right-button {
+    background: none;
+    border: 1px solid #94a3b8;
+    color: #94a3b8;
+}
+}

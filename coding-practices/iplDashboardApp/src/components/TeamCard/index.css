@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.team-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid #ffffff;
+  background-color: #ffffff11;
+  border-radius: 8px;
+  width: 38%;
+  margin: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.team-image {
+  width: 60px;
+  height: 60px;
+}
+
+.name-of-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.team-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .team-item-container {
+    width: 208px;
+    height: 100px;
+  }
+
+  .team-link {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+
+  .team-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .name-of-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-weight: 300;
+    padding-right: 8px;
+    font-size: 14px;
+  }
+}

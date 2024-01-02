@@ -1,0 +1,100 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.bg-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 32px;
+}
+
+.text-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 600px;
+  height: 80px;
+}
+
+@media (max-width: 576px) {
+  .text-icon-container {
+    width: 300px;
+    height: 80px;
+  }
+  .main-heading {
+    font-size: 18px;
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 32px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  margin-bottom: 16px;
+  line-height: 1;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+@media (max-width: 576px) {
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 14px;
+    line-height: 1.5;
+  }  
+}
+
+.color-success {
+  color: #2dca73;
+}
+
+.color-error {
+  color: #ff0b37;
+}
+
+.color-warning {
+  color: #ffb800;
+}
+
+.color-info {
+  color: #0f81e0;
+}

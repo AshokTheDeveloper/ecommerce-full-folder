@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.prime-video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prime-image {
+  height: 40vh;
+}
+
+.movies-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.action {
+  margin-bottom: 40px;
+}
+
+.movies-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}

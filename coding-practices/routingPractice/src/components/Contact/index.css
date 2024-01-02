@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 400px;
+}
+
+.contact-icon {
+  width: 180px;
+  margin-bottom: 34px;
+}
+
+.contact-text {
+  font-family: 'Roboto';
+  color: #551e53;
+}

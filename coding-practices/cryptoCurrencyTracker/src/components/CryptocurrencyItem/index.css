@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+
+.coin-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.coin-and-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.currency-logo {
+  width: 28px;
+  margin-right: 12px;
+  margin-left: 16px;
+}
+
+.currency-values-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 140px;
+    margin-right: 16px;
+    font-size: 14px;
+}
+

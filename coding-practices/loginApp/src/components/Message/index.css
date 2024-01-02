@@ -1,0 +1,8 @@
+/* Write your CSS here */
+
+.message-text {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 32px;
+}

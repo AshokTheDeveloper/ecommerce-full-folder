@@ -1,0 +1,12 @@
+.capital-item-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.capital {
+    color: #000000;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+/* Write your code here. */
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 16px;
+    padding-left: 64px;
+    padding-right: 84px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    font-family: "Roboto";
+    color: #ffffff;
+    margin-left: 6px;
+}

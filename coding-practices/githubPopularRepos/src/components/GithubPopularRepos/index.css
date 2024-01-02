@@ -1,0 +1,59 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.repo-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.main-heading {
+  font-family: 'Lobster';
+  color: #0f172a;
+  margin-top: 32px;
+}
+
+.language-filter-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.repo-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.loader {
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  width: 600px;
+}
+.failure-text {
+  font-family: 'Bree Serif';
+  color: #0f172a;
+}

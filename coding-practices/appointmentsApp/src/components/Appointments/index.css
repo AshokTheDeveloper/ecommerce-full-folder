@@ -1,0 +1,149 @@
+/* Write your CSS here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.appointments-bg-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1110px;
+    padding: 60px;
+    margin-top: 48px;
+}
+
+
+.input-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 990px;
+    margin-bottom: 24px;
+}
+
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.appointment-heading {
+    font-size: 32px;
+    color: #171f46;
+    font-family: "Roboto";
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+
+.label {
+    font-family: "Roboto";
+    color: #171f46;
+    font-size: 12px;
+    padding-bottom: 6px;
+}
+
+.input {
+    width: 260px;
+    padding: 6px;
+    padding-left: 8px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    border: 1px solid #b5b7c4;
+    outline: none;
+    font-family: "Roboto";
+}
+
+.add-button {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.bg-image {
+    margin-top: 40px;
+    width: 360px;
+}
+
+.separator {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appointments-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading-star-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 990px;
+}
+
+.heading {
+    color: #171f46;
+    font-family: "Roboto";
+    padding-bottom: 18px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.star-button {
+    padding: 4px 12px;
+    border-radius: 28px;
+    background: none;
+    border: 1px solid #b5b7c4;
+    outline: none;
+    color: #b5b7c4;
+    cursor: pointer;
+}
+
+
+.items-container {
+    width: 990px;
+    margin-bottom: 32px;
+}
+
+.appointments-list-item-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.starred {
+    padding: 4px 12px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    background-color: #9897f0;
+    color: #ffffff;
+    cursor: pointer;
+}

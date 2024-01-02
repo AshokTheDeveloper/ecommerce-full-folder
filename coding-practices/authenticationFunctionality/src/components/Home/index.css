@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.button {
+    font-family: "Roboto";
+    cursor: pointer;
+}

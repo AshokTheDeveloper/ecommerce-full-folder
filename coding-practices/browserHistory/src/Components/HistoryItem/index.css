@@ -1,0 +1,41 @@
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.history-item-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+.time {
+    padding-left: 8px;
+    padding-right: 32px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.domain-logo {
+    padding-right: 16px;
+    width: 40px;
+}
+
+.title {
+    padding-right: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #475569;
+}
+
+.domain-url {
+    padding-left: 16px;
+    color:  #475569;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 80px;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 80px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 400px;
+  margin-right: 60px;
+}
+
+.links {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.login {
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 6px 18px;
+  border-radius: 4px;
+}
+
+.mobile-links-container {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .header-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .logo {
+    width: 80px;
+    margin-left: 16px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .mobile-links-container {
+    display: flex;
+  }
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 8px 8px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #1e293b;
+  }
+
+  .login {
+      color: #ffffff;
+  }
+
+}

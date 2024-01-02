@@ -1,0 +1,112 @@
+/* Write CSS here */
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+.bg-container {
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 780px;
+    height: 100vh;
+}
+
+.timer-container {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-top: 0;
+}
+
+.timer-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 260px;
+    height: 260px;
+    box-shadow: 0px 2px 18px 0px #d8d8d8;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+.stop-watch-heading {
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #333333;
+    font-size: 36px;
+}
+
+.stop-watch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stopwatch-icon {
+    margin-right: 8px;
+}
+
+.timer-text {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-timer {
+    font-family: "Roboto";
+    color: #333333;
+    font-size: 46px;
+    margin-top: 24px;
+}
+
+.button-container {
+    margin-top: 32px;
+}
+
+.button {
+    width: 60px;
+    padding: 6px 12px;
+    margin: 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.start {
+    background-color: #1db05f;
+}
+
+.stop {
+    background-color: #ef0d36;
+}
+
+.reset {
+    background-color: #eaa800;
+}

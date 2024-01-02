@@ -1,0 +1,136 @@
+/* Write your code here. */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .box-heading {
+    color: black;
+    font-family: "Roboto";
+}
+
+.box-yellow {
+    background-color:  #fbbf24;
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+   
+}
+
+.box-blue {
+    background-color:  #38bdf8;
+    width: 160px;
+    height: 160px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+}
+
+.box-rose {
+    background-color: #ec4899;
+    width: 240px;
+    height: 240px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+}
+
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin {
+    margin: 16px;
+}
+}
+
+
+
+@media screen and (min-width: 768px){
+    .box-heading {
+    color: black;
+    font-family: "Roboto";
+}
+
+.box-yellow {
+    background-color:  #fbbf24;
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+   
+}
+
+.box-blue {
+    background-color:  #38bdf8;
+    width: 160px;
+    height: 160px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+}
+
+.box-rose {
+    background-color: #ec4899;
+    width: 240px;
+    height: 240px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Bree Serif";
+    align-self: flex-end;
+}
+
+.boxes-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin {
+    margin: 16px;
+}
+}

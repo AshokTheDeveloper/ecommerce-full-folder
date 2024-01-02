@@ -1,0 +1,145 @@
+/* Write your CSS here */
+.team-match-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 576px) {
+  .team-match-container {
+    padding: 0;
+  }
+}
+.csk-bg-color {
+  background-color: #f7db00;
+}
+
+.rcb-bg-color {
+  background-color: #a4261d;
+}
+
+.punjab-bg-color {
+  background-color: #d91c1f;
+}
+
+.rr-bg-color {
+  background-color: #da237b;
+}
+
+.kkr-bg-color {
+  background-color: #5755a7;
+}
+
+.srh-bg-color {
+  background-color: #f26d22;
+}
+
+.mi-bg-color {
+  background-color: #13418b;
+}
+
+.dc-bg-color {
+  background-color: #13418b;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.banner {
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .banner {
+    margin-top: 16px;
+    width: 90%;
+  }
+}
+
+.latest-match-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.recent-match-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.match-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.match-card-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 72%;
+}
+
+.text-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+
+.recent-matches-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.loader-container {
+  margin-top: 100px;
+  height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .match-card-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+  }
+
+  .match-card-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

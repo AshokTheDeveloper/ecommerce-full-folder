@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dark-home-background {
+    background-color: #000000;
+}
+
+.home-image {
+  width: 200px;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+}
+
+.dark-home-heading {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .home-image {
+    width: 140px;
+  }
+
+  .home-heading {
+    font-size: 24px;
+  }
+  .home-description {
+    font-size: 14px;
+  }
+}

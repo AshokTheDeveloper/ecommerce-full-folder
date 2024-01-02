@@ -1,0 +1,168 @@
+/* Write your CSS here */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    background-color:  #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.comments-bg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #1e293b;
+}
+
+.statement {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #475569;
+}
+
+.from-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.input-field {
+    font-family: "Roboto";
+    background: transparent;
+    outline: none;
+    border: 1px solid #cbd2d9;
+    border-radius: 4px;
+    width: 400px;
+    font-size: 14px;
+}
+
+.search {
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.comments {
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.button {
+    background-color: #0284c7;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 160px;
+}
+
+.image {
+    margin-right: 32px;
+}
+.separator {
+    border: 0.1px solid #cbd2d9;
+}
+
+.comments-count-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.comments-count {
+    background-color: #0284c7;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-family: "Roboto";
+}
+
+.comments-text {
+    font-family: "Roboto";
+    color: #1e293b;
+}
+
+
+@media screen and (max-width: 576px){
+    .bg-container {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .heading {
+        font-family: "Roboto";
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 56px;
+        color: #1e293b;
+    }
+
+    .comments-bg-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .image {
+        display: none;
+    }
+
+   .from-input-container {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+   }
+
+   .input-field {
+        font-family: "Roboto";
+        background: transparent;
+        outline: none;
+        border: 1px solid #cbd2d9;
+        border-radius: 4px;
+        width: 260px;
+        font-size: 14px;
+    }
+
+    .statement {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 56px;
+        color: #475569;
+    }
+}
