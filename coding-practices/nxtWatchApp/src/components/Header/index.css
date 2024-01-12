@@ -1,0 +1,45 @@
+.dark-mode {
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+}
+
+.light-mode {
+  width: 32px;
+  height: 32px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .dark-mode {
+    width: 24px;
+    height: 24px;
+  }
+  .light-mode {
+    width: 24px;
+    height: 24px;
+  }
+  .dark-icon {
+    width: 24px;
+    height: 24px;
+    color: black;
+  }
+  .light-icon {
+    width: 24px;
+    height: 24px;
+    color: #ffffff;
+  }
+}
+
+.popup-container {
+  background-color: red;
+  height: 100vh;
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.cart-summary-container {
+  padding: 8px;
+}
+
+.summary-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.summary-quantity {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 400;
+}
+
+.total {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.checkout-button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 8px 0px;
+  border-radius: 4px;
+  width: 100%;
+}
